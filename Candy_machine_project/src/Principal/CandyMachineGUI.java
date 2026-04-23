@@ -20,7 +20,7 @@ public class CandyMachineGUI extends JFrame {
 	private JTextField txtMonedas;
 	private JTextArea txtDisplay;
 
-	// --- INSTANCIAS DE TU LÓGICA ORIGINAL ---
+	
 	private CashRegister cashRegister = new CashRegister();
 	private Dispenser candy = new Dispenser(100, 50);
 	private Dispenser chips = new Dispenser(100, 65);
@@ -106,7 +106,7 @@ public class CandyMachineGUI extends JFrame {
 		contentPane.add(btnInventario);
 	}
 
-	// --- MÉTODOS DE LÓGICA ADAPTADOS ---
+	
 
 	private void realizarVenta(Dispenser producto, String nombre) {
 		try {
